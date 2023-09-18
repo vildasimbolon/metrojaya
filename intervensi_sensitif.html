@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Intervensi Sensitif -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="img/bps.png" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.cdnfonts.com/css/hornbill-personal-use" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/scroll-page-dua.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/close.css' rel='stylesheet'>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/hornbill-personal-use');
+  </style>
+  <body id="body">
+    <div class="container-fluid" style="padding-left:0; background-color: #74566A;">
+      <div id="background"></div>
+      <div id="skrollr-wrapper">
+        <div id="background"></div>
+        <div id="text_1" class="text_tulisan_kiri">Kamu tahu nggak sih, selain melakukan intervensi spesifik pemerintah juga mempunyai program intervensi sensitif yang katanya lebih berperan besar menurunkan stunting?</div>
+        <div id="text_1_0" class="text_tulisan_kanan">Iya kah? Apa itu intervensi sensitif?</div>
+        <div id="text_1_0_1" class="text_tulisan_kiri"> Intervensi sensitif adalah kegiatan pembangunan di luar sektor kesehatan yang ditujukan untuk mengatasi penyebab tidak langsung yang menjadi akar masalah stunting di Indonesia. </div>
+        <div id="text_1_0_2" class="text_tulisan_kanan">Apakah penyediaan rumah sanitasi layak termasuk didalamnya?</div>
+        <div id="text_1_0_3" class="text_tulisan_kiri"> Betul, itu adalah salah satu upaya intervensi sensitif. Namun, pada tahun 2022 masih ada 2 dari 10 rumah tangga di Indonesia tidak memiliki akses terhadap layanan sanitasi layak. </div>
+        <div id="text_1_0_4" class="text_tulisan_kanan">  Lalu, apalagi upaya pemerintah selain itu?</div>
+        <div id="text_1_1" class="text_tulisan_kiri"> Berdasarkan info yang kudapat, memberikan Pendidikan Anak Usia Dini (PAUD) menjadi salah intervensi utama dalam percepatan pencegahan stunting. </div>
+        <div id="text_2" class="text_tulisan_kanan">Bagaimana bisa? bukankah anak-anak hanya bermain di PAUD?</div>
+        <div id="text_3" class="text_tulisan_kiri"> Eitss.... Jangan salah. Ternyata PAUD berperan penting untuk memberikan edukasi tentang pola makan, pola asuh dan pola sanitasi kepada para orang tua terutama dalam 1000 Hari Pertama Kehidupan. PAUD juga penting untuk memberikan stimulasi bagi perkembangan kognitif dan tumbuh kembang anak.</div>
+        <div id="text_4" class="text_tulisan_kanan">Sepertinya, masih banyak anak-anak yang tidak mendapat pendidikan PAUD.</div>
+        <div id="text_5" class="text_tulisan_kiri">Benar sekali, menurut data BPS pada tahun 2022 dari setiap 10 anak usia 3-6 tahun, hanya ada 4 anak yang sedang menempuh pendidikan PAUD. </div>
+        <div id="text_6" class="text_tulisan_kanan">Ada lagikah program intervensi sensitif yang diselenggarakan pemerintah? </div>
+        <div id="text_7" class="text_tulisan_kiri">Masih banyak lagi.. Mau tau lebih lanjut? <button type="button" class="btn penjelasan zoom-in-out" onclick="info_99()" style="margin-left:10px"> klik di sini</button></div>
+        <div id="subject" ><img src="img/talk.png" class="person"></div>
+        <div id="subject_yellow" ><img src="img/yellow.gif" class="person"></div>
+        <div id="subject_brown" ><img src="img/brown.gif" class="person"></div>
+        <div id="judul" style="padding: 50px; width: 100%; text-shadow: 2px 2px white;"><h2 style="paddting-bottom:0; font-family: 'Hornbill Personal Use', sans-serif; text-align: center; color: black;"><b style="padding-bottom: 0;">Yuk kita mengenal Intervensi Gizi Sensitif<br>dari Kisah Budi dan Mawar</b></h2><p style="padding-left: 0; text-align: center;">Scroll untuk memulai</p><img src="img/scroll.gif" style="width: 50px;"></div>
+        <div id="text_11" style="padding: 50px; border-radius: 25px; width:100%"><a class="btn btn-primary zoom-in-out-box" type="btn"  style="background-color: #283a88; color: white; border: 0px;" href="index.html" >Kembali ke Halaman Utama</a></div>
+        <div id="subject_5 " class="text_tulisan_right"><button class="btn" id="play_musiknya_2" type="button" style="background-color: rgba(0, 0, 0, 0);" onclick="play_music()">🔔</button> 
+        <button id="pause_musiknya_2" class="btn jangan_tampil" type="button" onclick="pause_music()" style="background-color: rgba(0, 0, 0, 0);">🔕</button>
+        <a class="btn " type="button" href="index.html" style="background-color: rgba(0, 0, 0, 0);"><img src="img/exit.png" style="width:18px"></a>
+        </div>
+        <audio id="musik_1" controls autoplay hidden><source src="music/opening.mp3" type="audio/mp3"></audio>
+        <div id="info_99" class="text_info_full jangan_tampil" >
+          <div class="text-right" style="padding:30px; background-color: rgba(255,255,255,0.9); border-radius: 25px; margin: 50px; height:80%; overflow-y:scroll;"  >
+            <button class="btn" onclick="tutup_info_99()"><i class="gg-close" ></i></button>
+            <h4 style="paddting-bottom:0; font-family: 'Hornbill Personal Use', sans-serif; text-align: center; color: #283a88;"><b style="padding-bottom: 0;"><img src="img/face-info.gif" style="width: 40px;">Intervensi Gizi Sensitif</b></h4>
+            <p style="text-align: left;">Sasaran dari intervensi gizi spesifik adalah masyarakat secara umum dan tidak khusus ibu hamil dan balita pada 1.000 Hari Pertama Kehidupan/HPK. Kegiatan terkait Intervensi Gizi Sensitif dapat dilaksanakan melalui beberapa kegiatan yang umumnya makro dan dilakukan secara lintas Kementerian dan Lembaga. Kegiatan pembangunan diluar sektor kesehatan berkontribusi <span style="color:red"> 70%</span> terhadap intervensi stunting. Ada 12 kegiatan yang dapat berkontribusi pada penurunan stunting melalui Intervensi Gizi Spesifik sebagai berikut: <br>
+              • Menyediakan dan memastikan akses terhadap air bersih. <br>
+              • Menyediakan dan memastikan akses terhadap sanitasi. <br>
+              • Melakukan fortifikasi bahan pangan. <br>
+              • Meningkatkan ketahanan pangan dan gizi.<br>
+              • Menyediakan akses kepada layanan kesehatan dan Keluarga Berencana (KB).<br>
+              • Menyediakan Jaminan Kesehatan Nasional (JKN). <br>
+              • Menyediakan bantuan dan jaminan sosial bagi keluarga miskin. <br>
+              • Menyediakan Jaminan Persalinan Universal (Jampersal). <br>
+              • Memberikan pendidikan pengasuhan pada orang tua. <br>
+              • Memberikan edukasi kesehatan seksual dan reproduksi, serta gizi pada remaja. <br>
+              • Memberikan Pendidikan Anak Usia Dini (PAUD) Universal. <br>
+              • Memberikan pendidikan gizi masyarakat.<br><br>
+            </p><a class="btn btn-primary" type="button" href="index.html">Kembali ke Halaman Utama</a> <button class="btn btn-primary" onclick="tutup_info_99()">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="https://prinzhorn.github.io/skrollr/dist/skrollr.min.js"></script>
+    <script type="text/javascript" src="js/scroll-animation-page-dua.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      function play_music(){
+        document.getElementById('musik_1').play();
+        $('#play_musiknya_2').addClass("jangan_tampil");
+        $('#pause_musiknya_2').removeClass("jangan_tampil");
+      }
+
+      function pause_music(){
+        document.getElementById('musik_1').pause();
+        $('#play_musiknya_2').removeClass("jangan_tampil");
+        $('#pause_musiknya_2').addClass("jangan_tampil");
+      }
+      
+      function info_99() {
+        $('#info_99').removeClass("jangan_tampil");
+      }
+
+      function tutup_info_99() {
+        $('#info_99').addClass("jangan_tampil");
+      }
+    </script>
+  </body>
+</html>

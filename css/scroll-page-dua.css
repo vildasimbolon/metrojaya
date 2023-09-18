@@ -1,0 +1,297 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #74566A; fixed;
+  padding-left: 0;
+}
+
+.person{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 600px) {
+  #subject {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+
+  #subject img {
+    width:50%;
+  }
+
+  #subject_yellow {
+    background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   padding: 50px;
+    position: absolute;
+    left:40%;
+    bottom: 0;
+  }
+
+  #subject_yellow img {
+    width:50%;
+  }
+
+
+  #subject_brown {
+    background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   padding: 50px;
+    position: absolute;
+    left:40%;
+    bottom: 0;
+  }
+
+  #subject_brown img {
+    width:50%;
+  }
+  .text_tulisan_kiri{
+    border-radius: 0%;
+    background: white;
+    position: absolute;
+    padding:10px;
+    top: 10%;
+    border-radius: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .text_tulisan_kanan{
+    border-radius: 0%;
+    background: white;
+    position: absolute;
+    padding:10px;
+    top: 10%;
+    border-radius: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+}
+@media (min-width: 600px) {
+  #subject {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    left:40%;
+    bottom: 0;
+  }
+
+  #subject img {
+    width:20%;
+  }
+
+  #subject_yellow {
+    background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   padding: 50px;
+    position: absolute;
+    left:40%;
+    bottom: 0;
+  }
+
+  #subject_yellow img {
+    width:20%;
+  }
+
+
+  #subject_brown {
+    background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+   padding: 50px;
+    position: absolute;
+    left:40%;
+    bottom: 0;
+  }
+
+  #subject_brown img {
+    width:20%;
+  }
+  
+  .text_tulisan_kiri{
+    border-radius: 0%;
+    background: white;
+    position: absolute;
+    padding:10px;
+    top: 50%;
+    border-radius: 25px;
+    margin-right: 60%;
+    margin-left: 5%;
+  }
+
+  .text_tulisan_kanan{
+    border-radius: 0%;
+    background: white;
+    position: absolute;
+    padding:10px;
+    top: 50%;
+    border-radius: 25px;
+    margin-right: 5%;
+    margin-left: 60%;
+  }
+}
+
+.zoom-in-out {
+  margin: 24px;
+  animation: zoom-in-zoom 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+#skrollr-wrapper {
+  width:100%;
+  height:100%;
+  size: cover;
+  position:fixed;
+  overflow: hidden;
+  background-color: #74566A;
+}
+
+#skrollr-wrapper div {
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+
+#background {
+  background: url('../img/bg_9.jpg');
+  background-size: 1300px;
+  background-repeat-y: no-repeat;
+  margin: auto;
+  top: 0; left: 0; right: 0;  bottom: 0;
+  height: 100vt;
+  width:800%;
+  background-color: #b5b1a9;
+}
+
+.click{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+.text_tulisan_left {
+  border-radius: 0%;
+  background: white;
+  position: absolute;
+  padding:10px;
+  top: 50%;
+  left: 5%;
+  border-radius: 25px;
+/*  right: 20%;*/
+}
+
+.text_tulisan {
+  border-radius: 0%;
+  background: white;
+  position: absolute;
+  padding:10px;
+  top: 30%;
+/*  left: 20%;*/
+  border-radius: 25px;
+  margin-right: 15%;
+  margin-left: 15%;
+/*  right: 20%;*/
+}
+
+
+
+
+.text_tulisan_right {
+  border-radius: 100%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 10px;
+
+}
+
+
+
+
+
+.penjelasan{
+  color: blue;
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+  margin:0;
+  padding-left: 3px;
+  
+}
+
+#info{
+ background-repeat: no-repeat;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+  
+  
+}
+
+
+#isian{
+  height: 50%;
+ width: 50%;
+ background-color: white;
+ border-radius: 25px;
+}
+
+/*.tampilkan{
+  visibility: visible;
+}*/
+
+.jangan_tampil{
+  display:none;
+}
+
+
+.text_info {
+  border-radius: 0%;
+  background: white;
+  position: absolute;
+  padding:30px;
+  top: 0%;
+  right: 0%;
+  width: 500px;
+  max-width: 100%;
+}
+
+
+.text_info_full {
+  border-radius: 0%;
+  background: rgba(0,0,0, 0.8);
+  position: absolute;
+  padding:30px;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+
